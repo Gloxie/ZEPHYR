@@ -1,0 +1,40 @@
+2025-02-25 04:34:01,081 - INFO - logging in using static token
+2025-02-25 04:34:02,802 - INFO - Shard ID None has connected to Gateway (Session ID: bb72761399dae3e5268ecbcd1c30e25b).
+2025-02-25 05:11:19,010 - INFO - logging in using static token
+2025-02-25 05:11:20,490 - INFO - Shard ID None has connected to Gateway (Session ID: 18b6cc85ff9c4075f7bee825793e8da0).
+2025-02-25 05:13:47,868 - ERROR - API Key 1 failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-02-25 05:15:00,941 - ERROR - API Key 2 failed: ("Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 3. The candidate's safety_ratings are: [category: HARM_CATEGORY_SEXUALLY_EXPLICIT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HATE_SPEECH\nprobability: LOW\n, category: HARM_CATEGORY_HARASSMENT\nprobability: HIGH\n, category: HARM_CATEGORY_DANGEROUS_CONTENT\nprobability: NEGLIGIBLE\n].", [category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HATE_SPEECH
+probability: LOW
+, category: HARM_CATEGORY_HARASSMENT
+probability: HIGH
+, category: HARM_CATEGORY_DANGEROUS_CONTENT
+probability: NEGLIGIBLE
+])
+2025-02-25 05:31:36,502 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-25 05:31:36,503 - INFO - logging in using static token
+2025-02-25 05:31:38,313 - INFO - Shard ID None has connected to Gateway (Session ID: 2294cb83f51198dfaa99094fefc1ac53).
+2025-02-25 05:31:40,332 - INFO - ✅ Logged in as Zephyr#9044
+2025-02-25 05:31:56,199 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/ZEPHYR/bot.py", line 159, in on_message
+    response = generate_gemini_response(message.content, message.author.id, server_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/ZEPHYR/bot.py", line 104, in generate_gemini_response
+    user_language = detect_language(prompt)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/ZEPHYR/bot.py", line 80, in detect_language
+    return TextBlob(text).detect_language()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TextBlob' object has no attribute 'detect_language'
+2025-02-25 05:34:09,534 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-25 05:34:09,536 - INFO - logging in using static token
+2025-02-25 05:34:11,121 - INFO - Shard ID None has connected to Gateway (Session ID: 53a2a00a78c2e1e4b63c014a049ff4db).
+2025-02-25 05:34:13,319 - INFO - ✅ Logged in as Zephyr#0332

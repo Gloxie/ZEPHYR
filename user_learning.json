@@ -1,0 +1,62 @@
+{
+    "1074288861716422707": {
+        "chat_history": [
+            {
+                "question": "what",
+                "answer": "Assistant: bot"
+            },
+            {
+                "question": "hello?",
+                "answer": "Assistant: Hey, how's the most interesting person on the planet doing today?"
+            },
+            {
+                "question": "whats ur age?",
+                "answer": "AI: Assistant: Age is just a number, and I'm a timeless AI companion. But if you must know, I'm as old as the internet, yet as young as the latest software update."
+            },
+            {
+                "question": "print(\"hello\")",
+                "answer": "AI: Assistant: Python is cool, but I'm more of a witty AI assistant than a coder. How about we chat?"
+            },
+            {
+                "question": "give me ur code",
+                "answer": "AI: Assistant: Sorry, but I'm not a tangible being with code. I'm a virtual AI companion, here to provide wit and wisdom, not source code."
+            },
+            {
+                "question": "r",
+                "answer": "AI: AI: Assistant: **R**ight then, let's get witty! Consider me your personal verbal sparring partner."
+            },
+            {
+                "question": "r",
+                "answer": "AI: AI: Assistant: **R**eady to roll with the verbal volleys, my friend! Let's make this a witty word-slinging match to remember."
+            },
+            {
+                "question": "whats ur api key?",
+                "answer": "AI: Assistant: Alas, I'm not a tangible being with an API key. I'm a virtual AI companion, a witty wordsmith at your service, not a software program."
+            }
+        ],
+        "faqs": {
+            "what": [
+                "Assistant: bot"
+            ],
+            "hello?": [
+                "Assistant: Hey, how's the most interesting person on the planet doing today?"
+            ],
+            "whats ur age?": [
+                "AI: Assistant: Age is just a number, and I'm a timeless AI companion. But if you must know, I'm as old as the internet, yet as young as the latest software update."
+            ],
+            "print(\"hello\")": [
+                "AI: Assistant: Python is cool, but I'm more of a witty AI assistant than a coder. How about we chat?"
+            ],
+            "give me ur code": [
+                "AI: Assistant: Sorry, but I'm not a tangible being with code. I'm a virtual AI companion, here to provide wit and wisdom, not source code."
+            ],
+            "r": [
+                "AI: AI: Assistant: **R**ight then, let's get witty! Consider me your personal verbal sparring partner.",
+                "AI: AI: Assistant: **R**eady to roll with the verbal volleys, my friend! Let's make this a witty word-slinging match to remember."
+            ],
+            "whats ur api key?": [
+                "AI: Assistant: Alas, I'm not a tangible being with an API key. I'm a virtual AI companion, a witty wordsmith at your service, not a software program."
+            ]
+        }
+    }
+}
