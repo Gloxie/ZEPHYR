@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO, filename="bot.log", filemode="a",
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Load environment variables
-DISCORD_BOT_TOKEN = "MTI1NDQ0MjU3MDQ1NzgwODk3Ng.GygWmr.NqYZeWLUB5zjR2Devs7T5FzqUjVfdrdNjT_45k"
+DISCORD_BOT_TOKEN = ""
 
 # List of API keys
 API_KEYS = ["AIzaSyDlIkK0bs5A3ZBvRmdHdun1aN9MOAgvOL0", "AIzaSyCD6h0NUP-4CdopViPcfPapN2s1smOwOFY"]
